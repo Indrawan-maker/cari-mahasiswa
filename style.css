@@ -1,0 +1,108 @@
+.container{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  max-width: 460px;
+  text-align: center;
+  align-items: center;
+  padding: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+}
+
+input{
+  background-color: #ffffff;
+  padding: 8px;
+  margin-top: 6px;
+  width: 380px;
+  height: 26px;
+  border-radius: 8px;
+  border-color: #aca7cb;
+}
+
+button{
+    background-color: #474554;
+    color: #ffffff;
+  padding: 8px;
+  margin-top: 18px;
+  width: 400px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Cal Sans', sans-serif;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+button:hover{
+  background-color:#b9b9b9;
+}
+
+.message {
+  max-width: 420px;
+  min-height: 220px;
+  background-color:#f0f0f0;
+    border-radius: 6px;
+      margin-right: auto;
+  margin-left: auto;
+  letter-spacing: 2px;
+}
+.text-message{
+  word-spacing: 10px;
+    line-height: 1.8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Cal Sans', sans-serif;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  input{
+  background-color: #ffffff;
+  padding: 8px;
+  margin-top: 6px;
+  width: 250px;
+  height: 16px;
+  border-radius: 8px;
+  border-color: #aca7cb;
+}
+
+button{
+    background-color: #474554;
+    color: #ffffff;
+  padding: 8px;
+  margin-top: 18px;
+  width: 250px;
+  height: 36px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Cal Sans', sans-serif;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+  .message {
+  width: 300px;
+  min-height: 220px;
+  background-color:#f0f0f0;
+    border-radius: 6px;
+      margin-right: auto;
+  margin-left: auto;
+  letter-spacing: 2px;
+}
+.text-message{
+  word-spacing: 4px;
+    line-height: 1.2;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+    }
