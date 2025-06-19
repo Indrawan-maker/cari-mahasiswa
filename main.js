@@ -2,7 +2,7 @@ const inp = document.getElementById("inp")
 const btn = document.getElementById("btn")
 const p = document.getElementById("p")
 
-let result = []
+let result = [];
 
 async function fetchData(){
     const API = "https://api.ryzumi.vip/api/search/mahasiswa?query="
@@ -20,7 +20,7 @@ async function fetchData(){
     try {
         const getApi = await fetch(API + encodedName)
         result = await getApi.json()
-        console.log(JSON.stringify(result, null, 2))
+        console.log(JSON.stringify(result.nim))
         
         
         if (!result || result.length === 0) {
