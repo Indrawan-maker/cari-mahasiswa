@@ -1,135 +1,145 @@
-.container{
-  margin: 0;
-  box-sizing: border-box;
+html{
   padding: 0;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+  margin: 0;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
 }
 
 .card {
-  max-width: 460px;
-  text-align: center;
-  align-items: center;
-  padding: 40px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 40px;
+    max-width: 460px;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
 }
 
-input{
-  background-color: #ffffff;
-  padding: 8px;
-  margin-top: 6px;
-  width: 380px;
-  height: 26px;
-  border-radius: 8px;
-  border-color: #aca7cb;
-  border: 1px solid #aca7cb;
+input {
+    background-color: #ffffff;
+    padding: 8px;
+    margin-top: 6px;
+    width: 380px;
+    height: 26px;
+    border-radius: 8px;
+    border-color: #c9c1ff;
+    border: 1px solid #aca7cb;
 }
 
 input:focus {
-  outline: none;
-  border-color: #aca7cb;
-  box-shadow: 0 0 0 2px #e3deff;
+    outline: none;
+    border-color: #d9d3ff;
+    box-shadow: 0 0 0 2px #e3deff;
 }
 
-button{
+button {
     background-color: #474554;
     color: #ffffff;
-  padding: 8px;
-  margin-top: 18px;
-  width: 400px;
-  height: 40px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-family: 'Cal Sans', sans-serif;
-  word-spacing: 4px;
-  letter-spacing: 1px;
-  border: none;
+    padding: 8px;
+    margin-top: 18px;
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Cal Sans', sans-serif;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    border: none;
 }
 
-button:hover{
-  background-color:#b9b9b9;
+button:hover {
+    background-color: #b9b9b9;
 }
 
 .message {
-  max-width: 420px;
-  min-height: 220px;
-  background-color:#f0f0f0;
+    max-width: 420px;
+    min-height: 220px;
+    background-color: #f0f0f0;
     border-radius: 6px;
-      margin-right: auto;
-  margin-left: auto;
-  letter-spacing: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    letter-spacing: 2px;
 }
-.text-message{
-  word-spacing: 10px;
+
+.text-message {
+    word-spacing: 10px;
     line-height: 1.8;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
     font-family: 'Cal Sans', sans-serif;
     font-size: 12px;
 }
 
-footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: #000000;
-  text-align: center;
+footer {
+    color: #000000;
+    text-align: center;
+    padding: 6px;
+    margin-top: auto;
 }
 
 @media screen and (max-width: 600px) {
-  input{
-  background-color: #ffffff;
-  padding: 8px;
-  margin-top: 6px;
-  width: 250px;
-  height: 16px;
-  border-radius: 8px;
-  border-color: #aca7cb;
-}
-
-button{
-    background-color: #474554;
-    color: #ffffff;
-  padding: 8px;
-  margin-top: 18px;
-  width: 260px;
-  height: 36px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-family: 'Cal Sans', sans-serif;
-  word-spacing: 4px;
-  letter-spacing: 1px;
-  transition: 0.8s ease;
-}
-
-  .message {
-  width: 300px;
-  min-height: 220px;
-  background-color:#f0f0f0;
-    border-radius: 6px;
-      margin-right: auto;
-  margin-left: auto;
-  letter-spacing: 2px;
-}
-.text-message{
-  word-spacing: 4px;
-    line-height: 1.2;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-footer{
-  font-size: smaller;
-}
+    input {
+        background-color: #ffffff;
+        padding: 8px;
+        margin-top: 6px;
+        width: 250px;
+        height: 16px;
+        border-radius: 8px;
+        border-color: #aca7cb;
     }
 
-    @media (hover: hover) and (pointer: fine) {
-  button:hover {
-    background-color: #b9b9b9;
-  }
+    button {
+        background-color: #474554;
+        color: #ffffff;
+        padding: 8px;
+        margin-top: 18px;
+        width: 260px;
+        height: 36px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: 'Cal Sans', sans-serif;
+        word-spacing: 4px;
+        letter-spacing: 1px;
+        transition: 0.8s ease;
+    }
+
+    .message {
+        width: 300px;
+        min-height: 220px;
+        background-color: #f0f0f0;
+        border-radius: 6px;
+        margin-right: auto;
+        margin-left: auto;
+        letter-spacing: 2px;
+    }
+
+    .text-message {
+        word-spacing: 4px;
+        line-height: 1.2;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    footer {
+        font-size: smaller;
+        padding: 2px;
+    }
 }
+
+@media (hover: hover) and (pointer: fine) {
+    button:hover {
+        background-color: #b9b9b9;
+    }
+  }
