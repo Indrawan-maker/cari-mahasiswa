@@ -19,4 +19,3 @@ Cukup masukkan nama atau NIM, maka akan ditampilkan informasi mahasiswa yang ter
 ---
 
 **API** yang digunakan: [https://api.ry]()
-
