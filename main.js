@@ -44,7 +44,7 @@ async function fetchData() {
 
     } catch (error) {
         console.error("Terjadi error:", error);
-        p.textContent = "server sedang rusak silahkan datang 2 bulan lagi!";
+        p.textContent = "terjadi kesalahan saat mengambil data!";
     }
 }
 
