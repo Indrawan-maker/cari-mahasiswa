@@ -80,6 +80,8 @@ button:hover {
     letter-spacing: 2px;
 }
 
+
+
 .text-message {
     word-spacing: 10px;
     line-height: 1.8;
@@ -144,11 +146,5 @@ footer {
     footer {
         font-size: 8px;
         padding: 2px;
-    }
-}
-
-@media (hover: hover) and (pointer: fine) {
-    button:hover {
-        background-color: #b9b9b9;
     }
 }
